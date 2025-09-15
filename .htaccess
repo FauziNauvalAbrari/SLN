@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /sof7z/
+
+# Izinkan akses langsung folder assets
+RewriteCond %{REQUEST_URI} ^/sof7z/assets/ [NC]
+RewriteRule ^ - [L]
+
+# Kalau bukan file/folder asli, lempar ke index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
