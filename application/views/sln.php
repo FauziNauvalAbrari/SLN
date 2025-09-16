@@ -308,7 +308,7 @@
 
                     <div class="map-box">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3973.2986894504816!2d119.45897908465577!3d-5.21568316365998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee16d4d7d03c1%3A0xc5dd56b8b2539cc1!2sWarung%20Dg.Kanang!5e0!3m2!1sen!2sus!4v1699769376788!5m2!1sen!2sus"
-                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
 

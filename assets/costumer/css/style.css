@@ -700,11 +700,12 @@ footer::before {
 
 .footer-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(4, 1fr); /* semua 4 kolom sama rata */
   gap: 40px;
   margin-bottom: 40px;
   position: relative;
   z-index: 2;
+  align-items: start;
 }
 
 .footer-col h3 {
