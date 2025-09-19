@@ -14,11 +14,8 @@
                 <li><a href="#testimonials">Testimonial</a></li>
                 <li><a href="#gallery">Galeri</a></li>
                 <li><a href="#contact">Kontak</a></li>
+                <li><a href="/login" class="btn-login">Login</a></li>
             </ul>
-
-            <div class="contact-info">
-                <a href="#contact" class="btn">Login</a>
-            </div>
 
             <div class="hamburger">
                 <span></span>
