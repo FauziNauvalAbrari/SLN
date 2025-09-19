@@ -423,5 +423,5 @@
         .bindPopup("<b>" + pel.nama + "</b>");
     });
   </script>
-    <script src="js/script.js"></script>
+    <script src="<?php echo base_url('assets/costumer/js/script.js') ?>"></script>
     </body>
